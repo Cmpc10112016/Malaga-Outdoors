@@ -12,6 +12,24 @@
 
 /*Desktop*/
 
+
+/*Gradiente*/
+
+#gradienteLineal {
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+}
+
+
+/*.transition {
+    transition: width: 2s, height: 2s;
+}
+
+.transition:hover {
+    width: 300px;
+    height: 300px;
+}*/
+
 .fondoOliva {
     background-color: aqua;
     opacity: 0.5;
@@ -111,7 +129,6 @@ nav {
     margin: 2px;
     padding: 2px;
     list-style-type: none;
-
 }
 
 #fondoGaleria {
@@ -156,15 +173,14 @@ fieldset {
 
 #gridAreas {
     display: grid;
-    grid-template-areas:
-        "logo menu"
-        /*fila 1*/
-        "carrusel carrusel"
-        /*fila2*/
-        "identidad identidad"
-        /*fila3*/
-        "info info"
-        /*fila4*/
+    grid-template-areas: "logo menu"
+    /*fila 1*/
+    "carrusel carrusel"
+    /*fila2*/
+    "identidad identidad"
+    /*fila3*/
+    "info info"
+    /*fila4*/
     ;
     /*
     grid-template-columns: 100%;
@@ -228,54 +244,43 @@ footer {
         color: black;
         padding: 20px;
     }
-
     .fondoOliva1 {
         background-color: aqua;
         opacity: 0.5;
         color: black;
     }
-
     #imagenFondo {
         background-image: url(./Imagen/caminito\ del\ rey.jpg);
         opacity: 0.5;
         background-position: center;
     }
-
     .centrar {
         text-align: center;
         font-size: 150%;
     }
-
     .centrar2 {
         text-align: center;
     }
-
     .derecha {
         text-align: right;
     }
-
     .letra {
         font-family: 'open sans';
         font-style: normal;
         font-weight: normal;
     }
-
     .letra2 {
         font-family: 'luxurious roman';
     }
-
     .negrita {
         font-weight: bold;
     }
-
     .cursiva {
         font-style: italic;
     }
-
     .parrafoGrande {
         font-size: 200%;
     }
-
     div {
         background-color: gray;
         width: 200px;
@@ -284,7 +289,6 @@ footer {
         justify-items: center;
         align-items: center;
     }
-
     ul li {
         list-style-type: none;
         display: inline-block;
@@ -294,21 +298,17 @@ footer {
         margin-left: 5px;
         text-align: center;
     }
-
     li:hover {
         background-color: chartreuse;
         color: black;
     }
-
     .desplegable {
         display: none;
     }
-
     body {
         width: 100%;
         height: 100vh;
     }
-
     header {
         margin: 2px;
         grid-area: logo;
@@ -316,88 +316,72 @@ footer {
         align-items: center;
         justify-content: center;
     }
-
     nav {
         margin: 2px;
         padding: 2px;
         list-style-type: none;
         grid-area: menu;
     }
-
     #fondoGaleria {
         background-color: aquamarine;
     }
-
     img {
         margin: 5px;
     }
-
     section {
         width: 100%;
         margin: 2px;
     }
-
     footer {
         margin: 2px;
         grid-area: info;
     }
-
     fieldset {
         border: dotted chartreuse 2px;
     }
-
     .enlaces {
         margin-top: 2px;
         margin-bottom: 2px;
         padding-right: 5px;
     }
-
     .border {
         border: solid 1px chartreuse;
     }
-
     .lista {
         list-style-type: none;
         display: inline;
     }
-
     /*Grids por Areas*/
     #gridAreas {
         display: grid;
         grid-template-areas: "logo menu"
-            /*fila 1*/
-            "carrusel carrusel"
-            /*fila2*/
-            "identidad identidad"
-            /*fila3*/
-            "info info"
-            /*fila4*/
+        /*fila 1*/
+        "carrusel carrusel"
+        /*fila2*/
+        "identidad identidad"
+        /*fila3*/
+        "info info"
+        /*fila4*/
         ;
         grid-template-columns: 100%;
         grid-template-rows: 100%;
     }
-
     /*Nombrar por Area*/
     header {
         grid-area: logo;
     }
-
     nav {
         grid-area: menu;
     }
-
     #carrusel {
         grid-area: carrusel;
     }
-
     #identidad {
         grid-area: identidad;
     }
-
     footer {
         grid-area: info;
     }
-
     /*Flexbox*/
     .padre-flex {
         display: flex;
@@ -405,7 +389,6 @@ footer {
         flex-wrap: nowrap;
         justify-content: center space-evenly;
     }
-
     .body-flex {
         display: flex;
     }
@@ -421,54 +404,43 @@ footer {
         color: black;
         padding: 20px;
     }
-
     .fondoOliva1 {
         background-color: aqua;
         opacity: 0.5;
         color: black;
     }
-
     #imagenFondo {
         background-image: url(./Imagen/caminito\ del\ rey.jpg);
         opacity: 0.5;
         background-position: center;
     }
-
     .centrar {
         text-align: center;
         font-size: 150%;
     }
-
     .centrar2 {
         text-align: center;
     }
-
     .derecha {
         text-align: right;
     }
-
     .letra {
         font-family: 'open sans';
         font-style: normal;
         font-weight: normal;
     }
-
     .letra2 {
         font-family: 'luxurious roman';
     }
-
     .negrita {
         font-weight: bold;
     }
-
     .cursiva {
         font-style: italic;
     }
-
     .parrafoGrande {
         font-size: 200%;
     }
-
     div {
         background-color: gray;
         width: 200px;
@@ -477,7 +449,6 @@ footer {
         justify-items: center;
         align-items: center;
     }
-
     ul li {
         list-style-type: none;
         display: inline-block;
@@ -487,21 +458,17 @@ footer {
         margin-left: 5px;
         text-align: center;
     }
-
     li:hover {
         background-color: chartreuse;
         color: black;
     }
-
     .desplegable {
         display: none;
     }
-
     body {
         width: 100%;
         height: 100vh;
     }
-
     header {
         margin: 2px;
         grid-area: logo;
@@ -509,88 +476,72 @@ footer {
         align-items: center;
         justify-content: center;
     }
-
     nav {
         margin: 2px;
         padding: 2px;
         list-style-type: none;
         grid-area: menu;
     }
-
     #fondoGaleria {
         background-color: aquamarine;
     }
-
     img {
         margin: 5px;
     }
-
     section {
         width: 100%;
         margin: 2px;
     }
-
     footer {
         margin: 2px;
         grid-area: info;
     }
-
     fieldset {
         border: dotted chartreuse 2px;
     }
-
     .enlaces {
         margin-top: 2px;
         margin-bottom: 2px;
         padding-right: 5px;
     }
-
     .border {
         border: solid 1px chartreuse;
     }
-
     .lista {
         list-style-type: none;
         display: inline;
     }
-
     /*Grids por Areas*/
     #gridAreas {
         display: grid;
         grid-template-areas: "logo menu"
-            /*fila 1*/
-            "carrusel carrusel"
-            /*fila2*/
-            "identidad identidad"
-            /*fila3*/
-            "info info"
-            /*fila4*/
+        /*fila 1*/
+        "carrusel carrusel"
+        /*fila2*/
+        "identidad identidad"
+        /*fila3*/
+        "info info"
+        /*fila4*/
         ;
         grid-template-columns: 100%;
         grid-template-rows: 100%;
     }
-
     /*Nombrar por Area*/
     header {
         grid-area: logo;
     }
-
     nav {
         grid-area: menu;
     }
-
     #carrusel {
         grid-area: carrusel;
     }
-
     #identidad {
         grid-area: identidad;
     }
-
     footer {
         grid-area: info;
     }
-
     /*Flexbox*/
     .padre-flex {
         display: flex;
@@ -598,7 +549,6 @@ footer {
         flex-wrap: nowrap;
         justify-content: center space-evenly;
     }
-
     .body-flex {
         display: flex;
     }
